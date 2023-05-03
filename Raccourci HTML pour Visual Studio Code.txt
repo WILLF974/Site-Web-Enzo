@@ -1,0 +1,14 @@
+Raccourci HTML pour Visual Studio Code
+
+! -> Le squelette du site
+Dans le <body>
+Rajouter un <header>
+. -> Div principal
+a -> Le lien par href
+u -> ul - > Menu
+
+CSS
+* -> Style principal
+
+Pour créer rapidement 5 boutons
+button#btn$*5
