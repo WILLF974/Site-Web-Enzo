@@ -36,6 +36,7 @@ ul {
     float: right ;
     display: flex;
     margin-top: 20px;
+   
 }
 
 ul li a {
@@ -44,10 +45,59 @@ ul li a {
     padding: 10px 20px;
     text-transform: uppercase;
     border: 1px solid  transparent;
-    margin: 10px;
-    font-weight: 500;
+    margin: 20px;
+    font-weight: 200;
     transition: 0,6s ease;
 }
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sous li{
+    float: none;
+    width: 200%;
+    text-align: Left;
+}
+
+.sous a{
+    padding: 5px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
 
 ul li a:hover{
 background-color: #fff;
